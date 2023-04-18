@@ -1,0 +1,10 @@
+- Image:
+    source: {fname}
+    style:
+      position: absolute
+      left: {left}
+      top: {top}
+      width: 250
+      height: 50
+    on_touch:  # not needed if not draggable!
+      draggable: true

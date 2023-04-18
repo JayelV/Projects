@@ -1,0 +1,71 @@
+10
+how are you?
+3
+good
+great
+bad
+a
+10
+where are you?
+3
+home
+school
+walking
+c
+10
+how are you1?
+3
+good
+great
+bad
+b
+10
+how are you2?
+3
+good
+great
+bad
+c
+10
+how are you3?
+3
+good
+great
+bad
+a
+10
+how are you4?
+3
+good
+great
+bad
+a
+10
+how are you5?
+3
+good
+great
+bad
+a
+10
+how are you6?
+3
+good
+great
+bad
+a
+10
+how are you7?
+3
+good
+great
+bad
+a
+10
+how are you8?
+3
+good
+great
+bad
+a
+10

@@ -1,0 +1,5 @@
+- Text:
+    style:
+      fontSize: 30
+      color: blue
+    index: 5

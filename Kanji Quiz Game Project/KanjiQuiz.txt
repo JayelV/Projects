@@ -1,0 +1,129 @@
+16
+What is a Kun'yomi reading of:  教
+4
+none
+おし
+よん
+none
+2
+1
+What is a Kun'yomi reading of:  室
+4
+ちち
+け
+むろ
+つよ
+3
+1
+What is a Kun'yomi reading of:  羽
+4
+あね
+した
+はね
+あお
+3
+1
+What is a Kun'yomi reading of:  習
+4
+き
+さ
+なら
+くろ
+3
+1
+What is a Kun'yomi reading of:  漢
+4
+none
+かぜ
+あま
+ち
+1
+1
+What is a Kun'yomi reading of:  字
+4
+あお
+そと
+き
+あざ
+4
+1
+What is a Kun'yomi reading of:  式
+4
+none
+none
+ば
+あじ
+2
+1
+What is a Kun'yomi reading of:  試
+4
+none
+ため
+みぎ
+き
+2
+1
+What is a Kun'yomi reading of:  験
+4
+よむ
+ゆう
+none
+none
+4
+1
+What is a Kun'yomi reading of:  宿
+4
+おと
+やど
+まる
+はこ
+2
+1
+What is a Kun'yomi reading of:  題
+4
+はやし
+none
+おと
+にし
+2
+1
+What is a Kun'yomi reading of:  文
+4
+ふみ
+つま
+こめ
+はし
+1
+1
+What is a Kun'yomi reading of:  英
+4
+none
+かみ
+もり
+はは
+1
+1
+What is a Kun'yomi reading of:  質
+4
+none
+ば
+やま
+まめ
+1
+1
+What is a Kun'yomi reading of:  問
+4
+の
+と
+ひる
+ふる
+2
+1
+What is a Kun'yomi reading of:  説
+4
+び
+とく
+で
+none
+2
+1

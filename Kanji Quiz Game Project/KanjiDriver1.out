@@ -1,0 +1,179 @@
+*** Driver program for Kanji class ***
+
+1. Tests of typical constructor:
+Kanji kan1(36);
+  kan1.display_kstats():  
+Chapter 3
+外 outside
+On: がい,げ  Kun: そと,ほか
+
+
+Kanji kan4(14, "文", "sentence", "ぶん,もん", "ふみ");
+  kan4.display_kstats():  
+Chapter 14
+文 sentence
+On: ぶん,もん  Kun: ふみ
+
+
+Kanji kan5("曜");
+  kan5.display_kstats():  
+Chapter 2
+曜 weekday
+On: よう  Kun: none
+
+
+
+2. Test of default constructor:
+Kanji kan2;
+  kan2.display_kstats():  
+Chapter 0
+X X
+On: X  Kun: X
+
+
+
+3. Test of copy constructor:
+Kanji kan3(kan1);
+  kan3.display_kstats():  
+Chapter 3
+外 outside
+On: がい,げ  Kun: そと,ほか
+
+
+
+4. Initial display() of all variables:
+  kan1.display_kstats():  
+Chapter 3
+外 outside
+On: がい,げ  Kun: そと,ほか
+
+
+  kan2.display_kstats():  
+Chapter 0
+X X
+On: X  Kun: X
+
+
+  kan3.display_kstats():  
+Chapter 3
+外 outside
+On: がい,げ  Kun: そと,ほか
+
+
+  kan4.display_kstats():  
+Chapter 14
+文 sentence
+On: ぶん,もん  Kun: ふみ
+
+
+  kan5.display_kstats():  
+Chapter 2
+曜 weekday
+On: よう  Kun: none
+
+
+
+5. Tests of assignment operator:
+  kan5.display_kstats():  
+Chapter 2
+曜 weekday
+On: よう  Kun: none
+
+
+  kan1.display_kstats():  
+Chapter 3
+外 outside
+On: がい,げ  Kun: そと,ほか
+
+
+(kan5 = kan1).display_kstats():  
+Chapter 3
+外 outside
+On: がい,げ  Kun: そと,ほか
+
+
+  kan1.display_kstats():  
+Chapter 3
+外 outside
+On: がい,げ  Kun: そと,ほか
+
+
+
+6. Test of get_methods:
+  kan1.display_kstats():  
+Chapter 3
+外 outside
+On: がい,げ  Kun: そと,ほか
+
+
+kan1.get_meaning() returns outside
+kan1.get_onyomi(0) returns がい
+kan1.get_kunyomi(3) returns ほか
+kan1.get_kunyomi() returns そと,ほか
+kan5.make_kstring() returns 3 外 outside がい,げ そと,ほか
+
+kan2.find_kanji_line("金") returns 22
+
+7. Test of methods with state changes:
+  kan1.make_kstring():  
+kan1.make_kstring(100) returns 3 外 outside がい,げ そと,ほか
+
+  kan1.display_kstats():  
+Chapter 3
+外 outside
+On: がい,げ  Kun: そと,ほか
+
+
+
+8. Further test of assignment operator
+  kan2.display_kstats():  
+Chapter 0
+金 X
+On: X  Kun: X
+
+
+  kan4.display_kstats():  
+Chapter 14
+文 sentence
+On: ぶん,もん  Kun: ふみ
+
+
+(kan2 = kan4).build_kstats(125);
+  kan2.display_kstats():  
+Chapter 6
+小 small
+On: しょう  Kun: ちい
+
+
+
+9. final display_kstats() of all variables:
+  kan1.display_kstats():  
+Chapter 3
+外 outside
+On: がい,げ  Kun: そと,ほか
+
+
+  kan2.display_kstats():  
+Chapter 6
+小 small
+On: しょう  Kun: ちい
+
+
+  kan3.display_kstats():  
+Chapter 3
+外 outside
+On: がい,げ  Kun: そと,ほか
+
+
+  kan4.display_kstats():  
+Chapter 14
+文 sentence
+On: ぶん,もん  Kun: ふみ
+
+
+  kan5.display_kstats():  
+Chapter 3
+外 outside
+On: がい,げ  Kun: そと,ほか
+
+

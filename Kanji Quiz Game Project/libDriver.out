@@ -1,0 +1,7 @@
+*** Driver program for lib library ***
+
+1. Test of general-purpose helper function(s)
+char *str = make_string("Hello!"); cerr << str << endl;
+Hello!
+delete [] str;
+max_lines():   161

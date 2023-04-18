@@ -1,0 +1,71 @@
+10
+how are younormal?
+3
+good
+great
+bad
+a
+10
+where are younoraml?
+3
+home
+school
+walking
+c
+10
+how are you noraml1?
+3
+good
+great
+bad
+b
+10
+how are you noraml2?
+3
+good
+great
+bad
+c
+10
+how are you noraml3?
+3
+good
+great
+bad
+a
+10
+how are you noraml4?
+3
+good
+great
+bad
+a
+10
+how are you noaml5?
+3
+good
+great
+bad
+a
+10
+how are you noraml6?
+3
+good
+great
+bad
+a
+10
+how are you noraml7?
+3
+good
+great
+bad
+a
+10
+how are you noraml8?
+3
+good
+great
+bad
+a
+10

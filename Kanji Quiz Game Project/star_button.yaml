@@ -1,0 +1,15 @@
+- Button:
+    style:
+      position: absolute
+      left: 0
+      top: 0
+      width: 52
+      height: 52
+    on_touch:
+      backgroundColor: rgb(255, 255, 200)
+    children:
+      - Image:
+          source: star1.png
+          style:
+            width: 50
+            height: 50

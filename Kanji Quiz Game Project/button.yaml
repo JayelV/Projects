@@ -1,0 +1,10 @@
+- Button:
+    id: b{id}
+    style:
+      marginTop: 40
+      width: 100
+      height: 50
+      borderRadius: 25
+      backgroundColor: orange
+    on_touch:
+      backgroundColor: rgb(255, 200, 0)

@@ -1,0 +1,5 @@
+- HyperLink:
+    style:
+      marginLeft: 10
+    index: {index}
+    url: 'http://wp.stolaf.edu/'

@@ -1,0 +1,13 @@
+- Text:
+    style:
+      marginLeft: 30
+      marginTop: 100
+      fontSize: 30
+      color: black
+    index: {index_1}
+- Text:
+    style:
+      marginLeft: 30
+      fontSize: 30
+      color: black
+    index: {index_2}

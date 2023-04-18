@@ -1,0 +1,125 @@
+- View:
+    children:
+      - Text:
+          style:
+            fontSize: 50
+            color: red
+            margin-bottom: 10
+          index: {index}
+      - View:
+          style:
+            border-width: 3
+            border-color: black
+            padding: 3
+            padding-bottom: 50
+            width: 950
+          children:
+            - View:
+                style:
+                  flex: 1
+                  flex-direction: row
+                  height: 60
+                children:
+                  - Text:
+                      style:
+                        fontSize: 30
+                        color: black
+                      index: {index}
+            - View:
+                style:
+                  flex: 1
+                  align-items: center
+                  height: 60
+                children:
+                  - Text:
+                      style:
+                        fontSize: 50
+                        color: black
+                      index: {index}
+            - View:
+                style:
+                  flex: 1
+                  flex-direction: column
+                  align-items: center
+                  height: 60
+                children:
+                  - View:
+                      style:
+                        flex: 1
+                        flex-direction: row
+                        justifyContent: space-between
+                      children:
+                        - Button:
+                            id: choice1{id}
+                            style:
+                              marginTop: 5
+                              width: 200
+                              height: 50
+                              borderRadius: 25
+                              backgroundColor: rgb(160, 160, 160)
+                              align-items: center
+                            on_touch:
+                              backgroundColor: rgb(255, 200, 0)
+                            children:
+                              - Text:
+                                  style:
+                                    fontSize: 30
+                                    color: black
+                                  index: {index}
+                        - Button:
+                            id: choice2{id}
+                            style:
+                              marginTop: 5
+                              width: 200
+                              height: 50
+                              borderRadius: 25
+                              backgroundColor: rgb(160, 160, 160)
+                              align-items: center
+                            on_touch:
+                              backgroundColor: rgb(255, 200, 0)
+                            children:
+                              - Text:
+                                  style:
+                                    fontSize: 30
+                                    color: black
+                                  index: {index}
+                  - View:
+                      style:
+                        flex: 1
+                        flex-direction: row
+                        justifyContent: space-between
+                      children:
+                        - Button:
+                            id: choice3{id}
+                            style:
+                              marginTop: 10
+                              width: 200
+                              height: 50
+                              borderRadius: 25
+                              backgroundColor: rgb(160, 160, 160)
+                              align-items: center
+                            on_touch:
+                              backgroundColor: rgb(255, 200, 0)
+                            children:
+                              - Text:
+                                  style:
+                                    fontSize: 30
+                                    color: black
+                                  index: {index}
+                        - Button:
+                            id: choice4{id}
+                            style:
+                              marginTop: 10
+                              width: 200
+                              height: 50
+                              borderRadius: 25
+                              backgroundColor: rgb(160, 160, 160)
+                              align-items: center
+                            on_touch:
+                              backgroundColor: rgb(255, 200, 0)
+                            children:
+                              - Text:
+                                  style:
+                                    fontSize: 30
+                                    color: black
+                                  index: {index}
