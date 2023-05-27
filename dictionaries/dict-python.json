@@ -1,0 +1,241 @@
+{
+    "and":
+        {
+            "en": ["and","A logical operator. The return value will only be \"True\" if both statements return \"True\", otherwise, it will return \"False\"."],
+            "ja": ["かつ","「論理積」という論理演算子。"],
+            "es": ["y", "Un operador lógico. El valor de retorno sólo será True (Verdadero) si ambas sentencias devuelven True (Verdadero), en caso contrario devolverá False (Falso)."]
+        }
+    ,
+    "break": 
+        {
+            "en": ["break","Used to break out a \"for\" loop, or a \"while\" loop."],
+            "ja": ["終了","ループを終了する文。"],
+            "es":["terminar","Termina la instrucción de iteración contenedora más próxima"]
+        }
+    ,
+    "def":
+        {
+            "en": ["def","Used to create (or define) a function."],
+            "ja": ["関数","関数を定義したりする。"],
+            "es": ["define", "Se utiliza para crear (o definir) una función."]
+        }
+    ,
+    "elif":
+        {
+            "en": ["elif", "Used in conditional statements (\"if\" statements), and is short for \"else if\"."],
+            "ja": ["そうでないと -> もし","最初の指定した「if」条件式が偽の時に、他の条件式を確認する。「else..if」の略。"],
+            "es": ["de lo contrario -> si ...","La palabra clave \"elif\" se utiliza en sentencias condicionales (sentencias \"if\") y es la abreviatura de \"else if\"."]
+        }
+    ,
+    "else":
+        {
+            "en": ["else","Used in conditional statements (if statements), and decides what to do if the condition is False. The \"else\" keyword can also be use in \"try...except\" blocks."],
+            "ja": ["そうでないと","条件式が偽の場合にどうするかを決める条件文。"],
+            "es": ["por lo demás","Se utiliza en sentencias condicionales (sentencias if). Decidir qué hacer si la condición es Falsa."]
+        }
+    ,
+    "except":
+        {
+            "en": ["except","Used in \"try...except\" blocks (exception handling). It defines a block of code to run if the \"try\" block raises an error."],
+            "ja": ["例外","例外処理のキーワード。例外が発生した場合に、その例外に対処するコードを記述する。"],
+            "es": ["excepto","Se utiliza en bloques \"try...except\" (manejo de excepciones). Define un bloque de código que se ejecutará si el bloque \"try\" genera un error."]
+        }
+    ,
+    "False":
+        {
+            "en": ["false", "A boolean value, and result of a comparison operation. The \"False\" keyword is the same as 0"],
+            "ja": ["偽","「偽」というブール値。0の値に等しい。"],
+            "es": ["falso", "un valor booleano. La palabra clave \"falso\" equivale a 0."]
+        }
+    ,
+    "for": 
+        {
+            "en": ["for","for loop. It can be used to iterate through a sequence, like a list, tuple, etc."],
+            "ja": ["あるに","変数がイテラブルオブジェクトの中にある間、処理を繰り返し実行するループ。"],
+            "es":["por","bucle por"]
+        }
+    ,
+    "from": 
+        {
+            "en": ["from","Used to import only a specified section from a module."],
+            "ja": ["から","モジュール名を指定してモジュールを読み込む。"],
+            "es": ["de","Carga un módulo especificando el nombre del módulo."]
+        }
+    ,
+    "if": 
+        {
+            "en": ["if","Used to create conditional statements (\"if\" statements), and allows you to execute a block of code only if a condition is \"True\". Use the \"else\" keyword to execute code if the condition is False."],
+            "ja": ["もし","指定した条件式が真の時にだけ処理を実行する文。"],
+            "es": ["si","\"(if..then) si..entonces\": "]
+        }
+    ,
+    "import":
+        {
+            "en": ["import","Used to import modules."],
+            "ja": ["取り込む","「インポート」とはひとまとまりの機能・要素というモジュールを取り込む。"],
+            "es": ["importar","Se utiliza para importar módulos."]
+        }
+    ,
+    "in": 
+        {
+            "en": ["in","Used to check if a value is present in a sequence (list, range, string etc.). Also used to iterate through a sequence in a \"for\" loop."],
+            "ja": ["中","ある値がシーケンス（リスト、区間、文字列など）の中に存在するかどうかを確認するために使用される。また、forループでシーケンスを繰り返し処理する場合にも使用される。"],
+            "es": ["en", "Se utiliza para comprobar si un valor está presente en una secuencia (lista, rango, cadena, etc.). También se utiliza para iterar a través de una secuencia en un \"bucle for\"."]
+        }
+    ,
+    "or":
+        {
+            "en": ["or","Logical operator. The return value will be \"True\" if one of the statements return \"True\", otherwise it will return \"False\""],
+            "ja": ["それとも","「論理和」という論理演算子。"],
+            "es": ["o", "un operador lógico. El valor de retorno será True (Verdadero) si alguna de las sentencias devuelve True (Verdadero), en caso contrario devolverá False (Falso)."]
+        }
+    ,
+    "return":
+        {
+            "en": ["return","Used to exit a function and return a value."],
+            "ja": ["返す","関数を終了して値を戻る。"],
+            "es": ["entregar","Salir de una función y devolver un valor."]
+        }
+    ,
+    "True":
+        {
+            "en": ["true","A boolean value, and result of a comparison operation. The \"True\" keyword is the same as 1"],
+            "ja": ["真","「真」というブール値。1の値に等しい。"],
+            "es": ["cierto", "un valor booleano. La palabra clave \"verdadero\" equivale a 1."]
+        }
+    ,
+    "try": 
+        {
+            "en": ["try","Used in \"try...except\" blocks. It defines a block of code test if it contains any errors."],
+            "ja": ["試す","「例外処理」のキーワード。例外を発生される可能性がある文を記述する。"],
+            "es": ["probar","Utilizado en bloques \"try...except\". Define un bloque de código prueba si contiene algún error."]
+        }
+    ,
+    "while": 
+        {
+            "en": ["while","Used to create a \"while\" loop. A \"while\" loop will continue until the statement is false."],
+            "ja": ["ながらに","指定した条件式が真の間、処理を繰り返し実行するループ。"]
+        }
+    ,
+
+
+    "abs":
+        {
+            "en": ["abs", "Built-in function. Returns the absolute value of a number"],
+            "ja": ["絶対値","数値の絶対値を返す組み込み関数。"],
+            "es": ["valor absoluto","Devuelve el valor absoluto del número especificado."]
+        }
+    ,
+    "range":
+        {
+            "en": ["range", "Built-in function. Returns a sequence of numbers, starting from 0 and increments by 1 (by default)."],
+            "ja": ["区間","開始数から終了数までの連続した数値を作成する組み込み関数。"]
+        }
+    ,
+    "None":
+        {
+            "en": ["none", "Used to define no value at all"],
+            "ja": ["空","何も存在しないを表す定数"]
+        }
+    ,
+    "not":
+        {
+            "en": ["not", "A logical operator. It inverts the value of a Boolean. If value is true, it returns false. If value is false, it returns true."],
+            "ja": ["否定","指定した式の値を反転し、値が（真）なら（偽）を返し、（偽）なら（真）を返す論理演算子。"]
+        }
+    ,
+    "global":
+        {
+            "en": ["global", "Used to make a variable accessible anywhere in the entire program."],
+            "ja": ["グローバル","変数をプログラム全体のどこからでも参照できさせる宣言。"]
+        }
+    ,
+    "with":
+        {
+            "en": ["with", "A statement that opens and reads a file, and can simplify exception handling code so that it is easier to read."],
+            "ja": ["使用してる","ファイルを書き、操作を行い、閉じる構文。また、例外処理コードを読みやすくするためにすっきりと短縮して記述することができる構文。"]
+        }
+    ,
+    "del":
+        {
+            "en": ["del", "A keyword that is ued to delete objects."],
+            "ja": ["削除","作成した変数やオブジェクトなどを削除できる文。"]
+        }
+    ,
+    "await":
+        {
+            "en": ["await", "Suspend the execution of coroutine on an awaitable object. Can only be used inside a coroutine function."],
+            "es": ["esperar",""]
+        }
+    ,
+    "pass":
+        {
+            "en": ["pass", "A null statement where a user can have no code to execute. It is used as a placeholder when a user does not know what code to write."],
+            "ja": ["実行させたくない","ヌル操作。実行されても、何も起きない。コードとしては何も実行したくない場合のプレースホルダ。"]
+        }
+    ,
+    "raise":
+        {
+            "en": ["raise", "Forces a specific error or exception to occur."],
+            "jp": ["発生している","自分が作った関数やクラスを実行中にエラーが発生した場合、それを外部に伝えるを発生させるための文。"]
+        }
+    ,
+    "class":
+        {
+            "en": ["class", "Used to create and define a class."],
+            "ja": ["クラス","クラスを生成したり定義したりする宣言。"]
+        }
+    ,
+    "finally":
+        {
+            "en": ["finally", "Defines a block of code to execute after a \"try...except\" block."],
+            "ja": ["とうとう","例外処理で構文が終わる際に必ず実行される処理。"]
+        }
+    ,
+    "is":
+        {
+            "en": ["is", "Tests whether or not two variables are the same object."],
+            "ja": ["等価である","比較し、同じオブジェクトであるかを判断する演算子。"]
+        }
+    ,
+    "continue":
+        {
+            "en": ["continue", "Ends a currrent iteration such as a \"for\" loop, and continues to the next iteration."],
+            "ja": ["続く","繰り返し処理の１つをスキップさせる文。"]
+        }
+    ,
+    "lambda":
+        {
+            "en": ["lambda", "Creates a small anonymous function."],
+            "ja": ["ラムダ式","無名関数。関数の名前をつける必要がない一行で終わるような関数。"]
+        }
+    ,
+    "as":
+        {
+            "en": ["as", "Creates an alias for a module, a file, or an exception clause."],
+            "ja": ["別名","モジュールやファイルや例外処理の文に別名を付けることができる。"]
+        }
+    ,
+    "nonlocal":
+        {
+            "en": ["nonlocal", "Declares that a variable inside a function that is inside another function can be called by that outer function."],
+            "jp": ["ローカルではない","関数の１つ外側の変数を参照できる文。"]
+        }
+    ,
+    "assert":
+        {
+            "en": ["assert", "Helps to test or debug a written code if some conditions are true."],
+            "jp": ["肯定する","バグを取り除く（デバッグ）を行うためには予期しない動作を洗い出す文。"]
+        }
+    ,
+    "async":
+        {
+            "en": ["async", "async"]
+        }
+    ,
+    "yield":
+        {
+            "en": ["yield", "Makes a function return an object that contains a sequence of values."],
+            "jp": ["生み出す","関数の処理を一旦停止し、ゲネレータ式を返す。"]
+        }
+}
